@@ -1,5 +1,5 @@
 # E-swish: A New Novel Activation Function
-Code for reproducibility of [this paper](https://google.com)
+Code for reproducibility of the experiments of [this paper](https://google.com)
 
 ## Formula
 <div style="text-align:center"><img src ="e_swish.PNG" /></div>
@@ -42,14 +42,14 @@ E-swish is just a Swish activation function mirrored across the identity for all
 | Elu              | 8.95*         |
 | Leaky Relu (0.3) | 9.25*         |
 
-<i>*: Results are provided on a single model performance.</i>
+<i>*Results are provided on a single model performance.</i>
 
 * **WRN 16-4**
 
 | Activations      | % Test error (median of 5 runs) |
 | -------------    | -------------:|
-| Relu             | 5.02          |
 | E-swish          | 4.71          |
+| Relu             | 5.02          |
 
 ## Contact
 
