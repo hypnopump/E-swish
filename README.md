@@ -1,13 +1,15 @@
 # E-swish: A New Novel Activation Function
-Code for reproducibility of the experiments of [this paper](https://google.com)
+Code for reproducibility of the experiments of [this paper](https://github.com/EricAlcaide/E-swish/blob/master/publishing/ABSTRACT.pdf)
 
 ## Formula
 <div style="text-align:center"><img src ="e_swish.PNG" /></div>
 
 ## Abstract
 
-Activation functions have a notorious impact in neural networks on both training and testing the models against the desired problem. Currently, the most used activation function is the Rectified Linear Unit (ReLU). Although some alternatives have been proposed, none of them have managed to replace ReLU as the default activation due to inconstant improvements. This paper introduces a new activation function, closely related with the new activation Swish = x * sigmoid (x) (Ramachandran et al., 2017) which we call E-swish.
-E-swish is just a Swish activation function mirrored across the identity for all positive values. We show that E-swish outperforms many other well-known activations on a variety of tasks and it also leads to a faster convergence. For example, replacing Relu by E-swish provided at 0.3% accuracy improvement on Cifar10 for the WRN 16-4.
+<p align="justify">
+	Activation functions have a notorious impact in neural networks on both training and testing the models against the desired problem. Currently, the most used activation function is the Rectified Linear Unit (ReLU). Although some alternatives have been proposed, none of them have managed to replace ReLU as the default activation due to inconstant improvements. This paper introduces a new activation function, closely related with the new activation Swish = x * sigmoid (x) (Ramachandran et al., 2017) which we call E-swish.
+	E-swish is just a Swish activation function mirrored across the identity for all positive values. We show that E-swish outperforms many other well-known activations on a variety of tasks and it also leads to a faster convergence. For example, replacing Relu by E-swish provided at 0.3% accuracy improvement on Cifar10 for the WRN 16-4.
+</p>
 
 ## Results
 
