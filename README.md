@@ -2,7 +2,7 @@
 Code for reproducibility of [this paper]: (https://google.com)
 
 ## Formula
-<div style="text-align:center"><img src ="https://github.com/EricAlcaide/E-swish/blob/master/e_swish.png" /></div>
+<div style="text-align:center"><img src ="e_swish.png" /></div>
 
 ## Abstract
 
@@ -14,7 +14,7 @@ E-swish is just a Swish activation function mirrored across the identity for all
 ### MNIST
 
 | Activations      | % Accuracy (median of 3 runs) |
-| -------------    | ------------- |
+| -------------    | -------------:|
 | E-swish          | 98.46         |
 | Swish            | 98.31         |
 | Relu             | 98.30         |
@@ -25,7 +25,7 @@ E-swish is just a Swish activation function mirrored across the identity for all
 * **Simple CNN**
 
 | Activations      | % Accuracy (median of 3 runs) |
-| -------------    | ------------- |
+| -------------    | -------------:|
 | E-swish          | 83.35         |
 | Swish            | 81.88         |
 | Relu             | 82.06         |
@@ -35,7 +35,7 @@ E-swish is just a Swish activation function mirrored across the identity for all
 * **Deeper CNN**
 
 | Activations      | % Test error (median of 3 runs) |
-| -------------    | ------------- |
+| -------------    | -------------:|
 | E-swish          | 7.61          |
 | Swish            | 8.27          |
 | Relu             | 8.13          |
@@ -47,7 +47,7 @@ E-swish is just a Swish activation function mirrored across the identity for all
 * **WRN 16-4**
 
 | Activations      | % Test error (median of 5 runs) |
-| -------------    | ------------- |
+| -------------    | -------------:|
 | Relu             | 5.02          |
 | E-swish          | 4.71          |
 
