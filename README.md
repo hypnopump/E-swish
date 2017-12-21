@@ -2,7 +2,7 @@
 Code for reproducibility of [this paper]: (https://google.com)
 
 ## Formula
-<div style="text-align:center"><img src ="https://github.com/EricAlcaide/E-swish/blob/master/README.md/e_swish.png" /></div>
+<div style="text-align:center"><img src ="https://github.com/EricAlcaide/E-swish/blob/master/e_swish.png" /></div>
 
 ## Abstract
 
