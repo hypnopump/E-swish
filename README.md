@@ -17,32 +17,33 @@ Code for reproducibility of the experiments of [this paper](https://github.com/E
 
 | Activations      | % Accuracy (median of 3 runs) |
 | -------------    | -------------:|
-| E-swish          | 98.46         |
-| Swish            | 98.31         |
-| Relu             | 98.30         |
-| Elu              | 97.92         |
 | Leaky Relu (0.3) | 97.71         |
+| Elu              | 97.92         |
+| Relu             | 98.30         |
+| Swish            | 98.31         |
+| **E-swish**      | **98.46**     |
+
 ### CIFAR10
 
 * **Simple CNN**
 
 | Activations      | % Accuracy (median of 3 runs) |
 | -------------    | -------------:|
-| E-swish          | 83.35         |
+| Elu              | 81.81         |
 | Swish            | 81.88         |
 | Relu             | 82.06         |
-| Elu              | 81.81         |
 | Leaky Relu (0.3) | 82.22         |
+| **E-swish**      | **83.35**     |
 
 * **Deeper CNN**
 
 | Activations      | % Test error (median of 3 runs) |
 | -------------    | -------------:|
-| E-swish          | 7.61          |
+| Leaky Relu (0.3) | 9.25*         |
 | Swish            | 8.27          |
 | Relu             | 8.13          |
-| Elu              | 8.95*         |
-| Leaky Relu (0.3) | 9.25*         |
+| Elu              | 7.69          |
+| **E-swish**      | **7.61**      |
 
 <i>*Results are provided on a single model performance.</i>
 
@@ -50,8 +51,8 @@ Code for reproducibility of the experiments of [this paper](https://github.com/E
 
 | Activations      | % Test error (median of 5 runs) |
 | -------------    | -------------:|
-| E-swish          | 4.71          |
 | Relu             | 5.02          |
+| **E-swish**      | **4.71**      |
 
 ## Contact
 
