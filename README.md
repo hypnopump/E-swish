@@ -39,10 +39,10 @@ Code for reproducibility of the experiments of [this paper](https://github.com/E
 
 | Activations      | % Test error (median of 3 runs) |
 | -------------    | -------------:|
-| Leaky Relu (0.3) | 9.25*         |
+| Leaky Relu (0.3) | 8.62          |
 | Swish            | 8.27          |
 | Relu             | 8.13          |
-| Elu              | 7.69          |
+| Elu              | 7.79          |
 | **E-swish**      | **7.61**      |
 
 <i>*Results are provided on a single model performance.</i>
