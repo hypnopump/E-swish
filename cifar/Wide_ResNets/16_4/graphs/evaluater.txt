@@ -1,8 +1,0 @@
-python3 eval.py --save lolasso --depth 16 --width 4 --resume logs_4/model.pt7 --ngpu 1 --gpu_id 0
-
-
-
-
-python3 main.py --save logs_5 --depth 16 --width 4 --ngpu 1 --gpu_id 0
-
-python3 main.py --save logs_4_1 --depth 16 --width 4 --epochs 205 --resume logs_4/model.pt7 --ngpu 1 --gpu_id 0
