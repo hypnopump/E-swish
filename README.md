@@ -9,7 +9,7 @@ Uploading soon.
 ## Abstract
 
 <p align="justify">
-	
+	Activation functions have a notorious impact on neural networks on both training and testing the models against the desired problem. Currently, the most used activation function is the Rectified Linear Unit (ReLU). This paper introduces a new and novel activation function, closely related with the new activation Swish=x∗sigmoid(x)Swish=x∗sigmoid(x) (Ramachandran et al., 2017) which generalizes it. We call the new activation E−swish=βx∗sigmoid(x)E−swish=βx∗sigmoid(x). We show that E-swish outperforms many other well-known activations including both ReLU and Swish. For example, using E-swish provided 1.5% and 4.6% accuracy improvements on Cifar10 and Cifar100 respectively for the WRN 10-2 when compared to ReLU and 0.35% and 0.6% respectively when compared to Swish. The code to reproduce all our experiments can be found at https://github.com/EricAlcaide/E-swish
 </p>
 
 ## Results
