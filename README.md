@@ -21,10 +21,40 @@ Uploading soon.
 
 | Activations         		| % Accuracy (median of 3 runs) |
 | -------------    			| -------------:|
-| Swish            			| 89.98         |
-| Relu             			| 91.52         |
-| **E-swish (beta =1.375)** | **91.89**     |
+| Relu            			| 89.98         |
+| Swish            			| 91.52         |
+| **E-swish (beta=1.375)**  | **91.89**     |
 
+* **SimpleNet**
+
+| Activations         		| % Accuracy (single model performance) |
+| -------------    			| -------------:|
+| Relu            			| 95.33         |
+| Swish            			| 95.76         |
+| **E-swish (beta=1.125)**  | **96.02**     |
+| E-swish (beta=1.25)       | 95.73         |
+
+
+### CIFAR100
+
+* **WRN 10-2**
+
+| Activations         		| % Accuracy (median of 3 runs) |
+| -------------    			| -------------:|
+| Relu            			| 64.27         |
+| Swish            			| 68.32         |
+| **E-swish (beta=1.375)**  | **68.91**     |
+
+* **WRN 16-4**
+
+| Activations         		| % Accuracy (single model performance) |
+| -------------    			| -------------:|
+| Relu            			| 75.92         |
+| Swish            			| 76.88         |
+| **E-swish (beta=1.25)**   | **77.35**     |
+| E-swish (beta=1.5)        | 77.25         |
+| E-swish (beta=1.75)       | 77.29         |
+| E-swish (beta=2)          | 77.14         |
 
 ## Contact
 
